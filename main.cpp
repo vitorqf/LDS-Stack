@@ -31,7 +31,7 @@ int main() {
 
     top->push(&top, 3);
     top->push(&top, 4);
-    top->push(&top, 5);\
+    top->push(&top, 5);
 
     cout << "Tamanho da pilha: " << top->size(top) << endl;
     cout << "A pilha está vazia? " << top->empty(top) << endl;
